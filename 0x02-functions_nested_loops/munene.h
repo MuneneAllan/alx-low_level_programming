@@ -1,6 +1,6 @@
 #ifndef munene_h_
 #define _munene_h_
-int _main(char);
+int __putchar(char);
 void print_alphabet(void);
 void print_alphabet_x10(void);
 int _islower(int c);
