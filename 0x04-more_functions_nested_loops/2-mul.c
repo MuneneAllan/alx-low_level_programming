@@ -1,4 +1,4 @@
-#include "munene.h"
+#include "main.h"
 /**
 *
 *  * mul - multiplies two integers.
