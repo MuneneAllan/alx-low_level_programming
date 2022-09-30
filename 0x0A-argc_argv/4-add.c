@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <ctype.h>
 /**
 *main - adds positive numbers.
 *@argc: number of command line arguments.
@@ -17,6 +18,7 @@ if (!isdigit(argv[i][j]))
 {
 printf("Error\n");
 return (1);
+}
 }
 add += atoi(argv[i]);
 }
