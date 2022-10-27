@@ -23,7 +23,7 @@ prev = prev->next;
 if (prev == NULL || (prev->next == NULL && index != 0))
 {
 return (-1);
-
+}
 next = prev->next;
 if (index != 0)
 {
@@ -36,5 +36,4 @@ free(prev);
 *head = next;
 }
 return (1);
-}
 }
